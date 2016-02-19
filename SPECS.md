@@ -6,7 +6,7 @@ The software must be implemented in JavaScript using node.js runtime. At this mo
 * Receive email locally.
 * Transmit email to designated remote recipient using standard SMTP pipeline (MX lookup, etc).
 * In case of temporary delivery failure (4XX or related) the farther attempts must be deferred by configurable amount of time.
-* In case of permanent delivery failure (5XX or related) or consecutive temporary failures email must be deleted from queue and report must be sent to sender using standard SMTP pipeline (MX lookup, etc) using null-from address <>.
+* In case of permanent delivery failure (5XX or related) or consecutive temporary failures email must be deleted from queue and report must be sent to sender using standard SMTP pipeline (MX lookup, etc) using null-from address `<>`.
 * Select outgoing IP address and EHLO argument based on specific rules (see section below).
 * Log activity.
 
