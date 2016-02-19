@@ -1,5 +1,5 @@
 # Node.js based SMTP re-transmitter
-The software must be implemented in JavaScript using node.js runtime. At this moment the preferable supported version of node.js is 4.3.1. The software must fully adopt asynchronous nature of V8 engine to optimize receive/send speed.
+The software must be implemented in JavaScript using node.js runtime. At this moment the preferable supported version of node.js is 4.3.1. The software must fully adopt asynchronous nature of V8 engine to optimize receive/send speed. The software must seamlessly run on different platforms such as Linux and Windows.
 ### Main features
 * Configure using YAML file(s).
 * Listen on configured port.
